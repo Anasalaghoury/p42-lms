@@ -1,0 +1,105 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f8fafc; }
+.site-header {
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e293b;
+    color: white;
+    padding: 18px 30px;
+}
+.btn-add {
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+}
+.courses-grid {
+     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    padding: 25px;
+}
+.course-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow:  0 1px 4px rgba(0,0,0,0.08);
+}
+.instructor {
+    color: #64748b;
+    font-size: 14px;
+    margin: 5px 0;
+}
+.course-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #475569;
+    margin: 12px 0;
+}
+.btn-view {
+    display: block;
+    text-align: center;
+     background: #16a34a;
+    color: white;
+     text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+}
+.panel {
+    background: white;
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.back-link {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #2563eb;
+    text-decoration: none;
+}
+.enroll-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.enroll-form input,
+.enroll-form button,
+.form-panel input,
+.form-panel textarea,
+.form-panel button {
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+}
+.enroll-form button,
+.form-panel button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.students-list {
+    margin-top: 10px;
+    list-style: none;
+}
+.students-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+.form-panel label {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #475569;
+}
+.btn-cancel {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #64748b;
+}
